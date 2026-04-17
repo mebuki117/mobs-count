@@ -6,4 +6,4 @@ function mobs:chick/bossbar/create
 function mobs:chick/tick
 
 # info message
-tellraw @s {"text":"[Mobs Count][Info][Chick] Started","color":"green","bold":true}
+tellraw @s {"text":"[Mobs Count][Chick][Info] Started","color":"green","bold":true}

@@ -1,3 +1,8 @@
+# exceptions
+execute unless entity @e[type=armor_stand,tag=count_chick_center] run tellraw @a {"text":"[Mobs Count][Chick][Error] No valid armor stand found. Resetting...","color":"red","bold":true}
+execute unless entity @e[type=armor_stand,tag=count_chick_center] run function mobs:chick/actions/reset
+
+# main
 scoreboard players set total mobs_chick_count 0
 
 execute as @e[type=chicken] at @s if entity @e[type=armor_stand,tag=count_chick_center,distance=..5] store result score @s mobs_age run data get entity @s Age
