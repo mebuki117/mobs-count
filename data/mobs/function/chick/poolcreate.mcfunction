@@ -1,1 +1,0 @@
-execute at @s run place template mobs:chick_pool ~-5 ~-8 ~-5

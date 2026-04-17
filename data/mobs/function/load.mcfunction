@@ -1,1 +1,1 @@
-function mobs:scoreboardcreate
+function mobs:createscoreboard
